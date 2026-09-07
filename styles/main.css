@@ -112,3 +112,17 @@
     margin-inline: auto;
     padding-inline: 24px;
 }
+
+main {
+    background-image: url(../images/fgh.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.login {
+    background-image: url(../images/asd.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
