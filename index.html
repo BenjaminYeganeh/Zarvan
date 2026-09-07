@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="src/output.css">
     <link rel="stylesheet" href="images/logo.svg">
 </head>
-<body>
+<body class="relative">
 
     <!-- SVG List -->
     <svg class="hidden">
@@ -23,7 +23,7 @@
     </svg>
 
     <!-- Header -->
-    <header class="flex justify-between items-center h-20 w-full bg-white border-b border-b-gray-300 px-7.5">
+    <header class="sticky top-0 z-50 flex justify-between items-center h-20 w-full bg-gray-50 border-b border-b-gray-300 px-7.5">
         <!-- Header Right Side -->
             <div class="flex items-center gap-5">
                 <svg class="h-6 w-6">
@@ -39,7 +39,7 @@
                 </div>
             </div>
 
-        <!-- Header Left Button -->
+        <!-- Header Left Side -->
         <div class="flex items-center gap-4">
             <svg class="h-6 w-6">
                 <use href="#pen-and-paper"></use>
@@ -56,5 +56,14 @@
             <img class="w-8 h-8 rounded-full" src="images/asd.png" alt="profile photo">
         </div>
     </header>
+
+    <div class="grid grid-cols-[240px_1fr_300px]">
+        
+        <aside class="bg-gray-50 min-h-screen border-l border-l-gray-300"></aside>
+
+        <main></main>
+
+        <aside class="bg-gray-50 min-h-screen border-r border-r-gray-300"></aside>
+    </div>
 </body>
 </html>
