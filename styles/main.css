@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Vazirmatn Thin";
+    src: url(../fonts/Vazirmatn-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Vazirmatn ExtraLight";
+    src: url(../fonts/Vazirmatn-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: "Vazirmatn Light";
+    src: url(../fonts/Vazirmatn-Light.ttf);
+}
+
+@font-face {
+    font-family: "Vazirmatn Regular";
+    src: url(../fonts/Vazirmatn-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Vazirmatn Medium";
+    src: url(../fonts/Vazirmatn-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Vazirmatn SemiBold";
+    src: url(../fonts/Vazirmatn-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Vazirmatn Bold";
+    src: url(../fonts/Vazirmatn-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Vazirmatn ExtraBold";
+    src: url(../fonts/Vazirmatn-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Vazirmatn Black";
+    src: url(../fonts/Vazirmatn-Black.ttf);
+}
+
+@font-face {
+    font-family: "Peyda Thin";
+    src: url(../fonts/Peyda-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Peyda ExtraLight";
+    src: url(../fonts/peyda-extralight.ttf);
+}
+
+@font-face {
+    font-family: "Peyda Light";
+    src: url(../fonts/peyda-light.ttf);
+}
+
+@font-face {
+    font-family: "Peyda Regular";
+    src: url(../fonts/Peyda-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Peyda Medium";
+    src: url(../fonts/Peyda-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Peyda Bold";
+    src: url(../fonts/Peyda-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Peyda ExtraBold";
+    src: url(../fonts/Peyda-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Peyda Black";
+    src: url(../fonts/Peyda-Black.ttf);
+}
+
+@theme {
+    --font-vazir: "Vazirmatn Regular";
+    --font-vazir-bold: "Vazirmatn Bold";
+    --font-vazir-black: "Vazirmatn Black";
+    --font-vazir-semibold: "Vazirmatn SemiBold";
+    --font-vazir-light: "Vazirmatn Light";
+    --font-vazir-extralight: "Vazirmatn ExtraLight";
+    --font-vazir-extrabold: "Vazirmatn ExtraBold";
+    --font-vazir-medium: "Vazirmatn Medium";
+    --font-vazir-thin: "Vazirmatn Thin";
+    --font-peyda: "Peyda Regular";
+    --font-peyda-bold: "Peyda Bold";
+    --font-peyda-black: "Peyda Black";
+    --font-peyda-semibold: "Peyda SemiBold";
+    --font-peyda-light: "Peyda Light";
+    --font-peyda-extralight: "Peyda ExtraLight";
+    --font-peyda-extrabold: "Peyda ExtraBold";
+    --font-peyda-medium: "Peyda Medium";
+    --font-peyda-thin: "Peyda Thin";
+}
+
+@utility container {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 24px;
+}
